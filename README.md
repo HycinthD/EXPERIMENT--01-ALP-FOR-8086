@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :HYCINTH D
+Roll no :212223240055
+Date of experiment : 05.03.2024
 
 
 
@@ -79,25 +79,55 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
-
+mov AL,77h
+mov BL,99h
+ADD AL,BL
+HLT
 
 ## Output  
+
+![Screenshot (177)](https://github.com/HycinthD/EXPERIMENT--01-ALP-FOR-8086/assets/144870810/ec7be695-6695-406b-a6b8-104ae977a3e0)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
+
+mov AL,33h
+mov BL,89h
+sub AL,BL
+HLT
  
-## Output  
+## Output 
+
+![Screenshot (180)](https://github.com/HycinthD/EXPERIMENT--01-ALP-FOR-8086/assets/144870810/3dea8560-1206-45bf-9988-93dc9d03778d)
+
+
 ## Multiplication alp 
+
+mov AL,90h
+mov BL,80h
+mul AL
+HLT
+
  ## Output  
 
+![Screenshot (179)](https://github.com/HycinthD/EXPERIMENT--01-ALP-FOR-8086/assets/144870810/8ea0c2f8-f181-4a88-8634-309f3ff00f28)
 
-## Division alp 
+
+## Division alp
+
+mov AL,90h
+mov BL,80h
+DIV AL
+HLT
 
 ## Output  
+
+![Screenshot (178)](https://github.com/HycinthD/EXPERIMENT--01-ALP-FOR-8086/assets/144870810/1e932e56-1e8e-4233-902b-ec85eda5fb08)
 
 
 ## Result :
  
-
+Thus the output was successfully verified.
 
 
 
